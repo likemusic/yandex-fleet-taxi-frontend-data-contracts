@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+  composer:
+    build: ./docker/composer
+    volumes:
+      - .:/app
+    environment:
+      - COMPOSER_AUTH=${COMPOSER_AUTH}
