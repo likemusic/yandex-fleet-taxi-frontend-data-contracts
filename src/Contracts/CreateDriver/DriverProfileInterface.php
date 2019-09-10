@@ -12,10 +12,10 @@ interface DriverProfileInterface
     const DRIVER_LICENSE = 0;
     const EMAIL = 0;
     const FIRE_DATE = 0;
-    const FIRST_NAME = 'VU-Imia';
+    const FIRST_NAME = 'first_name';
     const HIRE_DATE = 0;
-    const LAST_NAME = 'VU-Familia';
-    const MIDDLE_NAME = 'VU-Otchestvo';
+    const LAST_NAME = 'last_name';
+    const MIDDLE_NAME = 'middle_name';
     const PHONE = 'Phone';
     const PHONE_2 = 'Phone_2';//TODO: в какое поле в админке его добавлять?
     const PROVIDERS = 0;
