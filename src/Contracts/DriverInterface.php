@@ -6,7 +6,7 @@ namespace Likemusic\YandexFleetTaxi\FrontendData\Contracts;
 interface DriverInterface
 {
     const WORK_PHONE = 'driver_work_phone';
-    const WHATSAPP_PHONE = 'driver_whatsapp_phone';//TODO: в какое поле в админке его добавлять?
+    const WHATSAPP_PHONE = 'driver_whatsapp_phone';
     const WORK_CITY = 'driver_work_city';
     const WORK_TIMEZONE = 'driver_work_timezone';
 
